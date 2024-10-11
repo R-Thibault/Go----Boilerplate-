@@ -55,6 +55,14 @@ This guide will walk you through the steps to create the Go boilerplate using th
      go get -u gorm.io/driver/postgres
      ```
 
+   To set the connexion, install the following Go modules :
+
+   - **JWT-Go JWT Token manager** : To create and manage JWT Token
+
+   ```bash
+    go get github.com/dgrijalva/jwt-go
+   ```
+
 3. **Verify Installation**
 
    After installing all dependencies, make sure they are properly listed in your `go.mod` file:
